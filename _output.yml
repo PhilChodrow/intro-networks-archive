@@ -4,3 +4,4 @@ bookdown::bs4_book:
     primary: "#096B72"
   repo: https://github.com/rstudio/bookdown-demo
 bookdown::epub_book: default
+output_dir: "docs"
