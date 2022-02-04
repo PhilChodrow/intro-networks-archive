@@ -1,3 +1,4 @@
+fig:unnamed-chunk-1
 fig:nice-fig
 tab:nice-tab
 eq:binom
@@ -6,14 +7,15 @@ measurement
 chapters-and-sub-chapters
 captioned-figures-and-tables
 random-graphs
-footnotes-and-citations
+ranking-and-centrality
 footnotes
 citations
-blocks
+clustering-and-community-detection
 equations
 theorems-and-proofs
 callout-blocks
-sharing-your-book
+networks-and-social-responsibility
 publishing
 pages
 metadata-for-sharing
+dynamics

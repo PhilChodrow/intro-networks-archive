@@ -1,7 +1,7 @@
 bookdown::bs4_book:
-  css: bs4_style.css
+  css: ["bs4_style.css", "style.css"]
   theme:
-    primary: "#096B72"
-  repo: https://github.com/rstudio/bookdown-demo
-bookdown::epub_book: default
-output_dir: "docs"
+    primary: "#c42412"
+  repo: https://github.com/philchodrow/intro-networks
+  includes:
+    in_header: header.html

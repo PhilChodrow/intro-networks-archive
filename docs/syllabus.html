@@ -18,6 +18,7 @@
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body data-spy="scroll" data-target="#toc">
 
@@ -44,14 +45,15 @@
 <li class="book-part">Lecture Notes</li>
 <li><a class="" href="measurement.html"><span class="header-section-number">1</span> Measurement</a></li>
 <li><a class="" href="random-graphs.html"><span class="header-section-number">2</span> Random Graphs</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">3</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">4</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">5</span> Sharing your book</a></li>
+<li><a class="" href="ranking-and-centrality.html"><span class="header-section-number">3</span> Ranking and Centrality</a></li>
+<li><a class="" href="clustering-and-community-detection.html"><span class="header-section-number">4</span> Clustering and Community Detection</a></li>
+<li><a class="" href="networks-and-social-responsibility.html"><span class="header-section-number">5</span> Networks and Social Responsibility</a></li>
+<li><a class="" href="dynamics.html"><span class="header-section-number">6</span> Dynamics</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
         <div class="book-extra">
-          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+          <p><a id="book-repo" href="https://github.com/philchodrow/intro-networks">View book source <i class="fab fa-github"></i></a></p>
         </div>
       </nav>
 </div>
@@ -61,7 +63,7 @@
 <div id="nice-to-meet-you" class="section level2 unnumbered">
 <h2>Nice to Meet You!<a class="anchor" aria-label="anchor" href="#nice-to-meet-you"><i class="fas fa-link"></i></a>
 </h2>
-<p>I’m Dr. Phil Chodrow, a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are he/him/his. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!</p>
+<p>I’m Dr. Phil Chodrow, a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are <em>he/him/his</em>. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!</p>
 <p>I love applied math, ethical data science, Star Trek, penguins, cooking, tea, Studio Ghibli movies, traditional martial arts, and effective pedagogy.</p>
 <div id="how-to-address-me" class="section level3 unnumbered">
 <h3>How to Address Me<a class="anchor" aria-label="anchor" href="#how-to-address-me"><i class="fas fa-link"></i></a>
@@ -118,6 +120,24 @@ I’ve given some examples below about some situations in which I hope you’ll 
 <div id="how-you-will-learn-in-math-168" class="section level3 unnumbered">
 <h3>How You Will Learn in Math 168<a class="anchor" aria-label="anchor" href="#how-you-will-learn-in-math-168"><i class="fas fa-link"></i></a>
 </h3>
+</div>
+</div>
+<div id="course-details" class="section level2 unnumbered">
+<h2>Course Details<a class="anchor" aria-label="anchor" href="#course-details"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Instructor</strong>: Prof. <a href="www.philchodrow.com">Phil Chodrow</a>
+<br><strong>Teaching Assistant</strong>: TBD</p>
+<p><strong>Classroom</strong>: Mathematical Sciences 6229
+<br><strong>Time</strong>: 10am-10:50am</p>
+<div id="in-person-learning" class="section level3 unnumbered">
+<h3>In-Person Learning<a class="anchor" aria-label="anchor" href="#in-person-learning"><i class="fas fa-link"></i></a>
+</h3>
+<p>I want you to come to class, but I will make it possible for you not to and still succeed in the course.</p>
+<ol style="list-style-type: decimal">
+<li>Lectures and Discussion will take place in person in the scheduled room during the scheduled time.</li>
+<li>We will record lectures and Discussion to the best of our technical abilities. We’ll ask for your understanding that the recordings, especially as we get the hang of things, may not be of the highest quality.</li>
+<li>While there may be some required participation activities that will take place in person, there will always be an option by which you can receive credit for them remotely.</li>
+</ol>
 </div>
 </div>
 <div id="beyond-math-168" class="section level2 unnumbered">
@@ -225,6 +245,9 @@ If your wellbeing comes into conflict with the course obligations, I hope that y
 </ul>
 </li>
 <li>
+<a class="nav-link" href="#course-details">Course Details</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#in-person-learning">In-Person Learning</a></li></ul>
+</li>
+<li>
 <a class="nav-link" href="#beyond-math-168">Beyond Math 168</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#the-hidden-curriculum">The Hidden Curriculum</a></li>
 <li><a class="nav-link" href="#prioritizing-your-wellbeing">Prioritizing Your Wellbeing</a></li>
@@ -235,8 +258,8 @@ If your wellbeing comes into conflict with the course obligations, I hope that y
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/02-measurement.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/02-measurement.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+<li><a id="book-source" href="https://github.com/philchodrow/intro-networks/blob/master/20-measurement.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/philchodrow/intro-networks/edit/master/20-measurement.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>

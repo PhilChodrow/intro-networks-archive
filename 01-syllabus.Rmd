@@ -2,7 +2,7 @@
 
 ## Nice to Meet You! {.unnumbered}
 
-I’m Dr. Phil Chodrow, a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are he/him/his. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
+I’m Dr. Phil Chodrow, a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are *he/him/his*. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
 
 I love applied math, ethical data science, Star Trek, penguins, cooking, tea, Studio Ghibli movies, traditional martial arts, and effective pedagogy.
 
@@ -46,6 +46,26 @@ Introduction to network science (including theory, computation, and applications
 
 
 ### How You Will Learn in Math 168 {.unnumbered}
+
+
+## Course Details {.unnumbered}
+
+**Instructor**: Prof. [Phil Chodrow](www.philchodrow.com)
+<br>
+**Teaching Assistant**: TBD
+
+**Classroom**: Mathematical Sciences 6229
+<br>
+**Time**: 10am-10:50am
+
+### In-Person Learning {.unnumbered}
+
+I want you to come to class, but I will make it possible for you not to and still succeed in the course. 
+
+1. Lectures and Discussion will take place in person in the scheduled room during the scheduled time. 
+2. We will record lectures and Discussion to the best of our technical abilities. We'll ask for your understanding that the recordings, especially as we get the hang of things, may not be of the highest quality. 
+2. While there may be some required participation activities that will take place in person, there will always be an option by which you can receive credit for them remotely. 
+
 
 
 
