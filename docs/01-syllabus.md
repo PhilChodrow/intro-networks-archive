@@ -1,8 +1,11 @@
 # Syllabus {.unnumbered}
 
+
+
 ## Nice to Meet You! {.unnumbered}
 
-I’m Dr. Phil Chodrow, a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are *he/him/his*. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
+
+I’m Dr. [Phil Chodrow](www.philchodrow.com), a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are *he/him/his*. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
 
 I love applied math, ethical data science, Star Trek, penguins, cooking, tea, Studio Ghibli movies, traditional martial arts, and effective pedagogy.
 
@@ -16,16 +19,16 @@ Please remember to address all your professors respectfully and according to the
 
 I've collected a bunch of FAQs about myself and various things that don't quite fit into a course syllabus [here](https://www.philchodrow.com/for-students/).
 
-## Guiding Principles {.unnumbered}
+## Guiding Principles {.unnumbered #guiding-principles}
 
-1. **I want you to succeed.** The purpose of this course is for you to build a set of skills that can support you in your studies, hobbies, and careers. It is not here to "weed you out," trick you, or discourage you. You (yes, **you**) can learn some cool stuff and get a good grade in this course. 
-2. **It's still tough out there.** Although some parts of our lives might be returning to normal, other parts remain affected by the COVID-19 pandemic. My main aims in designing this course are to (a) offer you flexibility to adapt to changing circumstances and (b) encourage you to support and be supported by your classmates. Python programming is fun, and I hope that this course can be a positive part of your experience during these challenging times. 
+1. **I want you to succeed.** The purpose of this course is for you to build a set of analytical tools for thinking critically about the many connected systems we encounter in the modern world. Along the way, you'll learn some new mathematics and build some interesting, creative projects. I view it as part of my job to help you along the way. I'm not succeeding as a teacher unless you are succeeding as a student. I will do my best to proactively remove barriers to your learning in this course, and I hope that you'll communicate with me if you see opportunities for me to help you out. 
+2. **It's still tough out there.** Although some parts of our lives might be returning to normal, other parts remain affected by the COVID-19 pandemic. My main aims in designing this course are to (a) offer you flexibility to adapt to changing circumstances and (b) encourage you to support and be supported by your classmates. **Network science is fun**. I hope that this course can be a positive part of your experience during these challenging times. 
 3. **Your wellbeing comes first.** If your wellbeing or that of a loved one comes into conflict with course obligations, I hope that you will prioritize the former. 
 I've included a considerable amount of flexibility in this course. 
 If you anticipate extended difficulties related to participation or assignments, reach out to me at the earliest opportunity. 
 We'll find a path that prioritizes your wellbeing while still enabling you to succeed in the course. 
 I've given some examples below about some situations in which I hope you'll reach out. 
-4. **We've got your back.** As the instructor, I'm available to you through multiple channels. You also have an amazing support team---your TAs, LAs, and peers are all here to help you in your learning journey.
+4. **We've got your back.** As the instructor, I'm available to you through multiple channels. Your TA and peers are all here to help you in your learning journey.
 
 ## Learning Objectives {.unnumbered}
 
@@ -42,8 +45,43 @@ In this course:
 
 ### Official Course Description {.unnumbered}
 
-Introduction to network science (including theory, computation, and applications), which can be used to study complex systems of interacting agents. Study of networks in technology, social, information, biological, and mathematics involving basic structural features of networks, generative models of networks, network summary statistics, centrality, random graphs, clustering, and dynamical processes on networks. Introduction to advance topics as time permits. P/NP or letter grading.
+*Introduction to network science (including theory, computation, and applications), which can be used to study complex systems of interacting agents. Study of networks in technology, social, information, biological, and mathematics involving basic structural features of networks, generative models of networks, network summary statistics, centrality, random graphs, clustering, and dynamical processes on networks. Introduction to advanced topics as time permits. P/NP or letter grading.*
 
+### Your Preparation {.unnumbered}
+
+The official prerequisites for MATH 168 are upper-division linear algebra (MATH 115A) and upper-division probability (MATH 170E or similar). I am expecting you to be able to write proofs and arguments that rely on material covered in these classes. That said, I don't need you to be ready to take a 115A exam at a moment's notice. 
+
+Briefly, my expectation is that, when you have access to books, notes, and the internet, you **won't get stuck** on problems involving linear algebra or probability content. In a bit more detail: 
+
+> When confronted with a problem whose solution requires linear algebra or probability, you are able to:  
+> 
+> - Identify the general topic needed for the problem (e.g. "eigenvalues of matrices," "Chebyshev's inequality"). 
+> - Rapidly identify where you need to look to find the result that you need in books, previous course notes, or online. 
+> - Recognize and use this result in a careful, insightful, and correct way in your solutions. 
+
+I'll also expect you to write code to perform simulations, experiments, and data analyses. There will be coding problems in homework, and you are also likely to want to write code for your course project. Python, R, and Julia are all good choices. If you don't have prior experience in computing, my recommendation is Python. I have gathered some [Python resources](#python-resources) to help you get started, and we'll see some additional examples in lecture and discussion. 
+
+### Course Environment {.unnumbered #course-environment}
+
+::: {.rmdimportant}
+**Diversity**<br>
+You deserve to be welcomed and celebrated by our community. We embrace diversity of age, background, beliefs, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other visible and non-visible categories. Discrimination is not tolerated in my classroom.
+:::
+
+::: {.rmdwarning}
+**Title IX**<br>
+You deserve a learning environment free from discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. The UCLA [Title IX Office](https://www.sexualharassment.ucla.edu/) can help you navigate your options. 
+:::
+
+::: {.rmdtip}
+**Accessibility**<br>
+You deserve to fully and equitably participate in our learning environment. I am actively putting effort into ensuring that course materials are screen-reader accessible, and welcome feedback on where I can do better. The UCLA  [Center for Accessible Education](https://www.cae.ucla.edu/) and [Disabilities and Computing Program](https://dcp.ucla.edu/) may be able to help remove barriers to learning. 
+:::
+
+::: {.rmdcaution}
+**Names and Pronouns** <br>
+You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, via Zoom,  in person, or via email. Conversely, please address your classmates according to their correct pronouns. 
+:::
 
 ### How You Will Learn in Math 168 {.unnumbered}
 
@@ -58,6 +96,16 @@ Introduction to network science (including theory, computation, and applications
 <br>
 **Time**: 10am-10:50am
 
+### Required Textbook {.unnumbered}
+
+We will be using the following text: 
+
+> Mark Newman (2018), *Networks: An Introduction*, **2nd edition**.[@newman2018networks] 
+
+Please note that we will be studying problems and topics from the **2nd edition**. The 1st edition can also be found online, but if you buy it you might end up doing the wrong problems! 
+
+We may also supplement with additional free online resources throughout the course. 
+
 ### In-Person Learning {.unnumbered}
 
 I want you to come to class, but I will make it possible for you not to and still succeed in the course. 
@@ -65,6 +113,17 @@ I want you to come to class, but I will make it possible for you not to and stil
 1. Lectures and Discussion will take place in person in the scheduled room during the scheduled time. 
 2. We will record lectures and Discussion to the best of our technical abilities. We'll ask for your understanding that the recordings, especially as we get the hang of things, may not be of the highest quality. 
 2. While there may be some required participation activities that will take place in person, there will always be an option by which you can receive credit for them remotely. 
+
+### Homework Assignments {.unnumbered}
+
+### Course Project {.unnumbered}
+
+
+### Midterm Exam {.unnumbered}
+
+### Final Grade {.unnumbered}
+
+
 
 
 
@@ -134,12 +193,6 @@ As a matter of moral principle, I will not write letters of recommendation for p
 I am very happy to discuss this policy with any student who has questions. Conversations about when and how mathematics, data science, and programming should be used are lacking in our community. If you'd like to engage me in such a conversation, that would be great! However, this policy is non-negotiable. Therefore, if I refuse to write you a letter on these grounds, please know that it doesn't reflect on your ability to succeed in PIC16B, your career potential, your worth as a person, or whether I like you. 
 
 The [Just Mathematics Collective](https://www.justmathematicscollective.net/) has compiled a list of resources for students on making ethical career decisions, which is available [here](https://justmathematicscollective.net/career_resources.html). The text of this section is lightly modified from their [suggested text](https://www.justmathematicscollective.net/letter_writing.html) on letter-writing. 
-
-
-
-
-
-# (PART\*) Lecture Notes {.unnumbered}
 
 
 

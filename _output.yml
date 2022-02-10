@@ -2,6 +2,15 @@ bookdown::bs4_book:
   css: ["bs4_style.css", "style.css"]
   theme:
     primary: "#c42412"
+    info:    "#0dcaf0"
+    base_font: 
+      google: 
+        family: Lato
+        wght: [400, 600, 700, 900]
+    heading_font:
+      google: 
+        family: Titillium Web
+        wght: 400
   repo: https://github.com/philchodrow/intro-networks
   includes:
     in_header: header.html

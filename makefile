@@ -1,5 +1,9 @@
 site: 
 	Rscript -e 'bookdown::render_book()'
+	
+site-open: 
+	Rscript -e 'bookdown::render_book()'
+	open file:///Users/philchodrow/Documents/UCLA_teaching/intro-networks/docs/index.html
 
 chapter: 
 	Rscript -e 'bookdown::preview_chapter()'

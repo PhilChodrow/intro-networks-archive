@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "_bookdown_files": true,
+        ".vscode": true,
+        "**/**.md": true,
+        "docs": true
+    }
+}

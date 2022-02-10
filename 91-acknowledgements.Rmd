@@ -1,0 +1,15 @@
+# Acknowledgements
+
+
+## Course Structure {.unnumbered}
+
+- [Course environment statements](#course-environment) in syllabus lightly modified from [Chad Topaz](https://chadtopaz.com). 
+- [Guiding principles](#guiding-principles) inspired by [Robert Talbert](https://rtalbert.org).
+
+## Course Content {.unnumbered}
+
+This course on network science is inspired by a number of courses in the area, including: 
+
+- Previous versions of MATH 168 at UCLA as offered by [Mason Porter](https://www.math.ucla.edu/~mason/) and [Heather Zinn Brooks](https://www.hmc.edu/mathematics/people/faculty/heather-zinn-brooks/) (now at Harvey Mudd College). 
+- [Patrick Jaillet](https://web.mit.edu/jaillet/www/)'s *6.268: Network Science at Models* at MIT. 
+- [Aaron Clauset](https://aaronclauset.github.io/)'s course [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) at CU Boulder. 
