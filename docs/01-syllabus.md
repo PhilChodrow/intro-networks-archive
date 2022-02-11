@@ -5,7 +5,7 @@
 ## Nice to Meet You! {.unnumbered}
 
 
-I’m Dr. [Phil Chodrow](www.philchodrow.com), a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are *he/him/his*. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
+I’m Dr. [Phil Chodrow](https://www.philchodrow.com), a visiting assistant professor in the Department of Mathematics at UCLA. My pronouns are *he/him/his*. I grew up in Virginia, did undergrad at Swarthmore College in Pennsylvania, and did my PhD (after a few years traveling and working) at MIT. Then I came here to UCLA!
 
 I love applied math, ethical data science, Star Trek, penguins, cooking, tea, Studio Ghibli movies, traditional martial arts, and effective pedagogy.
 
@@ -88,7 +88,7 @@ You deserve to be addressed in the manner that reflects who you are. I welcome t
 
 ## Course Details {.unnumbered}
 
-**Instructor**: Prof. [Phil Chodrow](www.philchodrow.com)
+**Instructor**: Prof. [Phil Chodrow](https://www.philchodrow.com)
 <br>
 **Teaching Assistant**: TBD
 
@@ -124,7 +124,7 @@ To request access to recordings, just send me an email!
 
 1. If you are concerned for your health or unable to physically make it to campus, you can request access to recordings for the entire quarter. Just email me and tell me that you are requesting access due to "one of the pre-approved situations described in the syllabus." You don't have to disclose anything more about your situation if you don't want to. I won't be attempting to verify your story in any way -- I trust you to tell me enough of the truth to justify your decision. 
 2. If you have to miss class for a day or two due to unexpected circumstances, you can email me and let me know which lecture days you need access to. You don't need to state a reason. 
-3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, rather than to add flexibility to course schedules. 
+3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** usually grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, not to add flexibility to course schedules. 
 
 ### Homework Assignments {.unnumbered}
 
