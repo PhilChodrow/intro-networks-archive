@@ -123,7 +123,7 @@ Concretely, here's how things are going to work:
 
 1. Lectures and Discussions will take place live, at our scheduled time and in our scheduled room. 
 2. Lectures and Discussions which feature extensive presentation by me or the TA will be recorded. Sessions that feature student discussion or activities may not be recorded. 
-3. In order to access recorded content, you need to **ask me for access.**
+3. In order to access recorded content, you need to **ask me for access.** How and why to do this is described below. 
 
 #### Requesting Access to Recordings {.unnumbered}
 
