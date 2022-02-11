@@ -115,11 +115,23 @@ We may also supplement with additional free online resources throughout the cour
 
 ### In-Person Learning {.unnumbered}
 
-I want you to come to class, but I will make it possible for you not to and still succeed in the course. 
+I believe that you learn better and that we form a more cohesive learning journey when students attend class in person. Provided that UCLA policy encourages in-person attendance, **my expectation is that most students will attend class live**. 
 
-1. Lectures and Discussion will take place in person in the scheduled room during the scheduled time. 
-2. We will record lectures and Discussion to the best of our technical abilities. We'll ask for your understanding that the recordings, especially as we get the hang of things, may not be of the highest quality. 
-2. While there may be some required participation activities that will take place in person, there will always be an option by which you can receive credit for them remotely. 
+That said, I am also aware that some of you may be concerned about your health or unable to reach campus in time for class. You are welcome in the course. You'll still be able to watch lectures on required content, submit all graded assignments, and generally succeed in the course. You may need to exercise some extra self-motivation and planning to keep on top of things, but if you can do that then you'll be fine. 
+
+Concretely, here's how things are going to work: 
+
+1. Lectures and Discussions will take place live, at our scheduled time and in our scheduled room. 
+2. Lectures and Discussions which feature extensive presentation by me or the TA will be recorded. Sessions that feature student discussion or activities may not be recorded. 
+3. In order to access recorded content, you need to **ask me for access.**
+
+#### Requesting Access to Recordings {.unnumbered}
+
+To request access to recordings, just send me an email! 
+
+1. If you are concerned for your health or unable to physically make it to campus, you can request access to recordings for the entire quarter. Just email me and tell me that you are requesting access due to "one of the pre-approved situations described in the syllabus." You don't have to disclose anything more about your situation if you don't want to. I won't be attempting to verify your story in any way -- I trust you to tell me enough of the truth to justify your decision. 
+2. If you have to miss class for a day or two due to unexpected circumstances, you can email me and let me know which lecture days you need access to. You don't need to state a reason. 
+3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, rather than to add flexibility to course schedules. 
 
 ### Homework Assignments {.unnumbered}
 
