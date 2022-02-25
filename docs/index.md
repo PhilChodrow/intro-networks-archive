@@ -1,7 +1,7 @@
 --- 
 title: "MATH 168<br>Introduction to Networks"
 author: "Phil Chodrow"
-date: "2022-02-10"
+date: "2022-02-24"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib, intro-networks.bib]
