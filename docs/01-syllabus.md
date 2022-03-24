@@ -82,7 +82,7 @@ You deserve to fully and equitably participate in our learning environment. I am
 You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or preferred name at any time, via Zoom,  in person, or via email. Conversely, please address your classmates according to their correct pronouns. 
 :::
 
-### How You Will Learn in Math 168 {.unnumbered}
+### How You Will Learn {.unnumbered}
 
 
 ## Course Details {.unnumbered}
@@ -125,7 +125,7 @@ To request access to recordings, just send me an email!
 2. If you have to miss class for a day or two due to unexpected circumstances, you can email me and let me know which lecture days you need access to. You don't need to state a reason. 
 3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** usually grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, not to add flexibility to course schedules. 
 
-### Assessment
+### Assessment {.unnumbered}
 
 Your grade in MATH 168 will be calculated using the following categories:
 

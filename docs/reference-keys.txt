@@ -1,5 +1,4 @@
 fig:unnamed-chunk-1
-assessment
 measurement
 random-graphs
 ranking-and-centrality
