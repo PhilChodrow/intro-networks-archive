@@ -45,7 +45,6 @@ In this course:
 2. You will use "large graph limit" arguments to reason about the qualitative behavior of random and real-world graphs.
 3. You will write programs to compute network measures, sample from random network models, simulate processes evolving on networks, and perform network data science tasks. 
 4. You will write both formal proofs and heuristic arguments to prove properties of network algorithms and models.
-5. You will communicate mathematical arguments, experiments, and code in a professional format via the $\LaTeX$ mathematical markup language. 
 6. You will read and summarize classical and recent research papers in several distinct areas of network science. 
 7. **Beyond math**: You will analyze, reflect on, and write about questions of bias, fairness, and justice in networked settings.  
 8. **Beyond math**: You will describe the abstractions and accompanying limitations of network models as descriptions of real-world phenomena. 
