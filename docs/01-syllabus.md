@@ -102,7 +102,7 @@ We will be using the following text:
 
 > Mark Newman (2018), *Networks: An Introduction*, **2nd edition**.[@newman2018networks] 
 
-Please note that we will be studying problems and topics from the **2nd edition**. The 1st edition can also be found online, but if you buy it you might end up doing the wrong problems! 
+Please note that we will be studying problems and topics from the **2nd edition**. The 1st edition can also be found, but if you buy it you might end up doing the wrong problems! 
 
 We may also supplement with additional free online resources throughout the course. 
 
@@ -126,19 +126,58 @@ To request access to recordings, just send me an email!
 2. If you have to miss class for a day or two due to unexpected circumstances, you can email me and let me know which lecture days you need access to. You don't need to state a reason. 
 3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** usually grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, not to add flexibility to course schedules. 
 
+### Assessment
+
+Your grade in MATH 168 will be calculated using the following categories:
+
+- **Homework**: 40 points. 
+- **Midterm Exam**: 15 points. 
+- **Cumulative Project**: 50 points. 
+
+Your final score in the class is the sum of your scores on homework, midterm, and cumulative project. 
+Letter grades will then be assigned using the straight scale as a floor. For example, any final score above 90 is enough to guarantee at least an A-, but I reserve the right to grant an A instead according to my judgment. 
+
+The only exception to this policy is the A+ grade, which is not guaranteed by any final score. I grant these by discretion. 
+
+You'll notice that there is a total of 105 possible points. That gives you 5 points which you can drop without consequence. In practice, I expect most folks to use this flexibility by skipping some homework problems. However, this is ultimately up to you.  
+
 ### Homework Assignments {.unnumbered}
 
-### Course Project {.unnumbered}
+We'll have a total of 8 homework assignments throughout the quarter. These 8 assignments will contain a total of at least 40 problems. 
 
+The computation of your overall homework score is simple: your homework score is the number of problems for which you've received credit, up to a maximum of 40. Have you received credit for 38 problems throughout the quarter? Then your homework score is 38/40. 
+
+#### Specifications Grading {.unnumbered}
+
+I'm going to say something that's going to sound scary: 
+
+> There is no partial credit on homework in MATH 168. 
+
+A solution can either meet specifications, in which case it receives credit, or not yet meet specifications, in which case it does not receive credit (yet).  
+
+Instead of partial credit, you have *multiple attempts.* If on your first try your solution does not meet specs, you'll get it back from the TA with a comment on what's in need of improvement. You can then *revise and resubmit the solution.* The TA will take another look: if you've met the specifications, you now get full credit. Nice job! One point toward your final grade in the course. 
+
+There will be a due date on your first submission, but you can submit revised second versions at any time prior to the end of the quarter. 
+
+Here is a list of the [standard specifications](#standard-specifications). These are the specifications that will be used in the vast majority of assigned homework problems. There may be a few problems with custom specifications, which will be supplied with the problem statement. 
+
+#### Late and Partial Attempts {.unnumbered}
+
+Please note that you can only resubmit a problem for full credit if you have already submitted a good effort *by the stated due date.* If you did not submit a first draft by the due date, or if your first draft doesn't show sufficient progress toward the problem, then your problem will be marked "Late/Partial Attempt." A problem with this mark will receive 0.5 points (instead of 1 point) if all specifications are met in the second submission. 
+
+In this policy, the phrase "sufficient progress" means roughly that you are at least half-way toward a solution. The judgement of whether a first submission demonstrates sufficient progress is fully at the discretion of the TA. 
+
+The purpose of this policy is to keep you moving at a good speed and to save the TA from large piles of submissions and resubmissions at the end of the quarter. 
 
 ### Midterm Exam {.unnumbered}
 
-### Final Grade {.unnumbered}
+The midterm exam will be on the 24 hour format, and will likely take place during Week 6 or early in Week 7. The exam will be a "90 minute exam." The intention of this phrase is that, if everyone spends 90 minutes on the exam, the median score would be around 90% (which is 13-14 out of a total of 15). 
 
+The exam will be open book, open notes, and open internet. You'll be expected to cite any sources used in solving problems. The only thing forbidden on the exam will be asking for help from sources other than me or the TA. Forbidden practices therefore include collaboration, asking for help on online help forums (including Campuswire), or standard methods of cheating like Chegg. 
 
+### Cumulative Course Project {.unnumbered}
 
-
-
+There will be a cumulative course project that you will complete in groups over the course of the quarter. The bulk of the work for this project will take place in Weeks 5-10. There will be a number of milestones due throughout the course, including short essays, progress reports, and presentations. 
 
 ## Beyond Math 168 {.unnumbered}
 

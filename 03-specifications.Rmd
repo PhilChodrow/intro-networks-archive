@@ -1,0 +1,53 @@
+# Standard Specifications {.unnumbered}
+
+Below, I've listed out the specifications that will be applied to the vast majority of homework problems in MATH 168. There may be a few problems with custom specifications. These specifications will be stated alongside the problem. 
+
+**You should treat the specifications as a checklist.** When you think you think you might be done with a problem, go down the applicable list of specifications. If you are confident that you have satisfied each expectation in each part of the problem, then you can expect to get credit for the problem. The reason is that this is *exactly* what the TA will be doing when grading your assignments. 
+
+## Specs for Mathematical Argumentation {.unnumbered}
+
+These specifications are in effect whenever a problem asks you to support a mathematical claim through proof, argument, or calculation. 
+
+### Correctness {.unnumbered}
+
+- Each direction in the problem statement is followed.
+    - **Note**: You are required to follow only *directions*, not *hints*. That said, I include the hints with the intention of making your life easier!
+- The overall structure is mathematically sound and supports the required result.
+
+### Exposition {.unnumbered}
+
+- Each step is carefully justified. Resources that can always be cited include the course notes or lectures, the course text, and standard theorems in linear algebra and probability. Other sources are often acceptable with citation. 
+- The proof or argument is presented using clear and engaging English prose. The proof or argument is written in English sentences. There is at least as much English text as there are mathematical symbols. Grammar and spelling errors are acceptable provided that the meaning is clear.
+
+## Specs for Computation Problems {.unnumbered}
+
+These specifications are in effect whenever a problem asks you to perform and present a computational experiment. 
+
+### Correctness {.unnumbered}
+
+- Each direction in the problem statement is followed. 
+- The results are correct or appear correct. 
+
+### Exposition {.unnumbered}
+
+- If a figure is requested, this figure has clearly labeled axes and readable data markings. 
+- If a figure is requested, there is a brief discussion of the meaning of the figure. 
+- The code is supplied as part of the problem submission. 
+- The code contains comments to describe what each part of the code does. Generally speaking, there should be at least one high-level comment for every 3-5 lines of code. More comments don't hurt. 
+
+## FAQs {.unnumbered}
+
+**Am I required to use the $\LaTeX$ typsetting language for submitting my homework?** <br>
+No, but this is highly encouraged! This an especially helpful thing for you to practice if you expect to continue on to graduate school. I am happy to supply $\LaTeX$ source files for the homework assignments on request. 
+
+**Am I required to use any specific software for computational problems?**<br>
+No, you are free to use any software that allows you to accomplish the task. That said, if you don't have a pre-existing preference, we strongly recommend Python with the [NetworkX](https://networkx.org) package. The easiest way to get started is to download [Anaconda Python](https://www.anaconda.com/products/individual), which includes up-to-date Python and NetworkX installations built right in. 
+
+**If I meet specifications on two parts of a three-part problem, do I get partial credit?**<br>
+No, there is no partial credit on homework assignments in MATH 168. To receive credit for the problem, you need to meet specifications on all parts. 
+
+
+
+
+
+# (PART\*) Lecture Notes {.unnumbered}
