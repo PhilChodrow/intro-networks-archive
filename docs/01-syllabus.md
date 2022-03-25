@@ -182,9 +182,9 @@ The *hidden curriculum* refers to the implicit knowledge and habits---not usuall
 - **It's never wrong to ask me for help.** <br>
 It is literally my job to help you succeed in this class. If at any time you're concerned about your ability to keep up the pace, just reach out and we'll see what we can do. I won't always be able to give you exactly the support you request, but I will do my best. I'm more able to help you out if you **approach me early**, as soon as issues come up. 
 - **Your wellbeing comes first.** <br>
-If you are experiencing circumstances that make it difficult for you to complete your work for this class---especially if those circumstances are health-related---please let me know. There are plenty of drops for Discussion and quizzes, and I will grant extensions on homework assignments with valid reasons. "I didn't manage my time well this week" isn't a valid reason (in this case I would suggest you use your one homework drop), but "I am sick," "my internet is unreliable," "I am changing housing," etc. etc. are all appropriate. 
+If you are experiencing circumstances that make it difficult for you to complete your work for this class---especially if those circumstances are health-related---please let me know. There is flexibility already built into this course, and I'm happy to work with you when circumstances make it difficult for you to focus on your learning. "I didn't manage my time well this week" isn't usually a reason I'll grant additional flexibility,  but "I am sick," "my internet is unreliable," "I am changing housing," etc. etc. are all appropriate. 
 - **Student Hours are for you.** <br>
-Student Hours, often called "Office Hours" in other courses, are **your time**. Come by to ask questions, chat with me, or just work on homework. You don't need a "reason" to come to Student Hours, and you shouldn't worry about disturbing me. Again, it's **your time.** I'll be very happy to see you.
+Student Hours, also called Office Hours, are **your time**. Come by to ask questions, chat with me, or just work on homework. You don't need a "reason" to come to Student Hours, and you shouldn't worry about disturbing me. Again, it's **your time.** I'll be very happy to see you.
 - **You can ask me to advocate for you.** <br>
 This is most commonly related to letters of recommendation (see section "Advice and Letters of Recommendation"), but if there's another way in which I can use my position to help you, let me know. 
 - **If something is hard for you, that's ok.** <br>
@@ -192,9 +192,9 @@ Maybe you're struggling on a problem. That's good! I know it feels frustrating, 
   - You are not the only one. I promise. 
   - You are not a bad student. 
   - You can still succeed in this class and in future endeavors involving programming. 
-  - Ask for help! You've got me,  the TA, the LAs, and your classmates. We are all here for you. 
+  - Ask for help! You've got me,  the TA, and your classmates. We are all here for you. 
 - **It's ok---actually, it's awesome---to collaborate with your peers on homework.** <br>
-It's not cheating to work together on homeworks (at least in this class). Make sure to credit your collaborators at the top of your assignment, and observe the considerations in the section "Collaboration and Academic Honesty." 
+It's not cheating to work together on homeworks (at least in this class). Make sure to credit your collaborators at the top of your assignment and write a bit about how they contributed to your learning in each problem.  
 
 To expand on one of the points above: if you are a first-gen student, I especially encourage you to reach out to me. I'll offer you what tips I can about navigating your time at UCLA. 
 
@@ -208,7 +208,12 @@ If your wellbeing comes into conflict with the course obligations, I hope that y
 - If you do not have **reliable internet** or other resources needed to access class resources, let me know and we'll see what we can do. 
 - If you are having trouble **managing your time**, feel free to ask me for advice. I don't usually grant accommodations for this reason, but I may be able to help you use your time more efficiently in the future. 
 
-These examples are not exhaustive. If you are in any situation in which you feel that your obligations to PIC16A are detrimental to your wellbeing or the wellbeing of someone you love, **please consider contacting me.** Please also remember that the sooner you approach me, the better I can help you. 
+These examples are not exhaustive. If you are in any situation in which you feel that your obligations to MATH 168 are detrimental to your wellbeing or the wellbeing of someone you love, **please consider contacting me.** Please also remember that the sooner you approach me, the better I can help you. 
+
+
+### Research Opportunities {.unnumbered}
+
+Sorry y'all -- I will not be taking any more student research collaborators at UCLA. I need to focus on completing my various open projects as I prepare to transition to my next position. 
 
 ### Advice and Letters of Recommendation {.unnumbered}
 
