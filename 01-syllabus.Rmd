@@ -116,21 +116,15 @@ We may also supplement with additional free online resources throughout the cour
 
 I believe that you learn better and that we form a more cohesive learning journey when students attend class in person. Provided that UCLA policy encourages in-person attendance, **my expectation is that most students will attend class live**. 
 
-That said, I am also aware that some of you may be concerned about your health or unable to reach campus in time for class. You are welcome in the course. You'll still be able to watch lectures on required content, submit all graded assignments, and generally succeed in the course. You may need to exercise some extra self-motivation and planning to keep on top of things, but if you can do that then you'll be fine. 
+That said, I am also aware that some of you may be concerned about your health or the health of your loved ones. Others of you may be unable to reach campus in time for class. While I can't offer you an experience on par with those who attend live, I do intend to make things work for you.  
 
 Concretely, here's how things are going to work: 
 
 1. Lectures and Discussions will take place live, at our scheduled time and in our scheduled room. 
-2. Lectures and Discussions which feature extensive presentation by me or the TA will be recorded. Sessions that feature student discussion or activities may not be recorded. 
-3. In order to access recorded content, you need to **ask me for access.** How and why to do this is described below. 
+2. Lectures and Discussions which feature extensive presentation by me or the TA will be recorded using the in-room recording setup. Sessions that primarily feature student discussion or activities may not be recorded. 
+3. Provided that live attendance remains high, I plan to make the recordings public to all students. 
 
-#### Requesting Access to Recordings {.unnumbered}
-
-To request access to recordings, just send me an email! 
-
-1. If you are concerned for your health or unable to physically make it to campus, you can request access to recordings for the entire quarter. Just email me and tell me that you are requesting access due to "one of the pre-approved situations described in the syllabus." You don't have to disclose anything more about your situation if you don't want to. I won't be attempting to verify your story in any way -- I trust you to tell me enough of the truth to justify your decision. 
-2. If you have to miss class for a day or two due to unexpected circumstances, you can email me and let me know which lecture days you need access to. You don't need to state a reason. 
-3. If you need access for a longer period of time but aren't in one of the two "pre-approved situations," you can email me to make a request. I'll evaluate these on a case-by-case basis. One reason that I will **not** usually grant is time conflicts with another course. While I appreciate the idea here, the purpose of remote accommodations is to include folks in the class who remain impacted by the pandemic, not to add flexibility to course schedules. 
+The primary purpose of posting recordings is to make it possible for students who feel unsafe to be able to participate with the course. Recordings are not intended to act as a substitute for attendance for most students. **I reserve the right to restrict access to recordings** if attendance during class periods drops off. 
 
 ### Assessment {.unnumbered}
 
@@ -149,7 +143,7 @@ You'll notice that there is a total of 105 possible points. That gives you 5 poi
 
 ### Homework Assignments {.unnumbered}
 
-We'll have a total of 8 homework assignments throughout the quarter. These 8 assignments will contain a total of at least 40 problems. 
+We'll have a total of 8 homework assignments throughout the quarter. These 8 assignments will contain a total of at least 40 problems. (There may be a few more than 40 problems available, but only 40 of them will count toward your grade).  
 
 The computation of your overall homework score is simple: your homework score is the number of problems for which you've received credit, up to a maximum of 40. Have you received credit for 38 problems throughout the quarter? Then your homework score is 38/40. 
 
@@ -157,7 +151,7 @@ The computation of your overall homework score is simple: your homework score is
 
 I'm going to say something that's going to sound scary: 
 
-> There is no partial credit on homework in MATH 168. 
+> There is no partial credit on homework problems in MATH 168. 
 
 A solution can either meet specifications, in which case it receives credit, or not yet meet specifications, in which case it does not receive credit (yet).  
 
@@ -177,9 +171,9 @@ The purpose of this policy is to keep you moving at a good speed and to save the
 
 ### Midterm Exam {.unnumbered}
 
-The midterm exam will be on the 24 hour format, and will likely take place during Week 6 or early in Week 7. The exam will be a "90 minute exam." The intention of this phrase is that, if everyone spends 90 minutes on the exam, the median score would be around 90% (which is 13-14 out of a total of 15). 
+The midterm exam will likely take place during Week 6 or early in Week 7. The exam is currently expected to be a 50-minute in-person exam during a class period. You'll be permitted to bring any quantity of hand-written notes to the exam, but not any other resources. 
 
-The exam will be open book, open notes, and open internet. You'll be expected to cite any sources used in solving problems. The only thing forbidden on the exam will be asking for help from sources other than me or the TA. Forbidden practices therefore include collaboration, asking for help on online help forums (including Campuswire), or standard methods of cheating like Chegg. 
+This plan may change in response to evolving circumstances surrounding the pandemic. 
 
 ### Cumulative Course Project {.unnumbered}
 

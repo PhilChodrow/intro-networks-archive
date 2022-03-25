@@ -170,9 +170,10 @@ The purpose of this policy is to keep you moving at a good speed and to save the
 
 ### Midterm Exam {.unnumbered}
 
-The midterm exam will be on the 24 hour format, and will likely take place during Week 6 or early in Week 7. The exam will be a "90 minute exam." The intention of this phrase is that, if everyone spends 90 minutes on the exam, the median score would be around 90% (which is 13-14 out of a total of 15). 
+The midterm exam will likely take place during Week 6 or early in Week 7. The exam is currently expected to be a 50-minute in-person exam during a class period. This plan may change in response to evolving circumstances surrounding the pandemic. 
 
-The exam will be open book, open notes, and open internet. You'll be expected to cite any sources used in solving problems. The only thing forbidden on the exam will be asking for help from sources other than me or the TA. Forbidden practices therefore include collaboration, asking for help on online help forums (including Campuswire), or standard methods of cheating like Chegg. 
+You'll be permitted to bring any quantity of hand-written notes to the exam, but not any other resources. 
+
 
 ### Cumulative Course Project {.unnumbered}
 

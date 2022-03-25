@@ -10,6 +10,10 @@
 - [*High-Dimensional Probability*](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), sa free book by [Roman Vershynin](https://www.math.uci.edu/~rvershyn/) at UC Irvine covering a range of topics on the probabilistic foundations of modern, high-dimensional statistics at an advanced level. 
 - [*Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning*](https://www.cis.upenn.edu/~jean/math-deep.pdf) by [Jean Gallier](https://www.cis.upenn.edu/~jean/home.html) and Jocelyn Quaintance is a monumental, free online book covering a wide range of mathematical background useful in machine learning and data science. 
 
+## Application Domains
+
+- The book [*Economic Networks: Theory and Computation*](https://arxiv.org/pdf/2203.11972.pdf) by John Stachurski and Thomas J. Sargent. I haven't personally read this one, but a quick glance looks good. 
+
 ## Data Sets {.unnumbered} 
 
 - The [Colorado Index of Complex Networks](https://icon.colorado.edu/#!/) (ICON) hosts a large variety of network data sets spanning a large variety of research fields. ICON is curated by the [group of Aaron Clauset](https://aaronclauset.github.io) at CU Boulder. 
