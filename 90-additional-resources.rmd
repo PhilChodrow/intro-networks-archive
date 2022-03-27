@@ -7,10 +7,10 @@
 - [Aaron Clauset](https://aaronclauset.github.io/) at CU Boulder maintains excellent lecture notes on [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) and [Biological Networks](https://aaronclauset.github.io/courses/3352/). 
 - [*Lectures on Network Systems*](http://motion.me.ucsb.edu/book-lns/), a free book by [Francesco Bullo](http://motion.me.ucsb.edu/) at UC Santa Barbara covering a range of important topics related to dynamical systems on networks. The development of the linear algebra toolbox for approaching network problems is clear and of high general utility.   
 - [*Introduction to Probability for Data Science*](https://probability4datascience.com/?source=techstories.org), a free book by [Stanley Chan](https://engineering.purdue.edu/ChanGroup/stanleychan.html) at Purdue covering some of the elementary theory of probability as it relates to statistics and machine learning. 
-- [*High-Dimensional Probability*](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), sa free book by [Roman Vershynin](https://www.math.uci.edu/~rvershyn/) at UC Irvine covering a range of topics on the probabilistic foundations of modern, high-dimensional statistics at an advanced level. 
+- [*High-Dimensional Probability*](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), is a free book by [Roman Vershynin](https://www.math.uci.edu/~rvershyn/) at UC Irvine covering a range of topics on the probabilistic foundations of modern, high-dimensional statistics at an advanced level. 
 - [*Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning*](https://www.cis.upenn.edu/~jean/math-deep.pdf) by [Jean Gallier](https://www.cis.upenn.edu/~jean/home.html) and Jocelyn Quaintance is a monumental, free online book covering a wide range of mathematical background useful in machine learning and data science. 
 
-## Application Domains
+## Application Domains {.unnumbered}
 
 - The book [*Economic Networks: Theory and Computation*](https://arxiv.org/pdf/2203.11972.pdf) by John Stachurski and Thomas J. Sargent. I haven't personally read this one, but a quick glance looks good. 
 
@@ -22,11 +22,13 @@
 
 ## Organizations {.unnumbered}
 
-*"The society of [Women in Network Science](https://www.networkscienceinstitute.org/wins) (WiNS) connects **women, trans and non-binary gender** network scientists from different races, socioeconomic backgrounds, and nations. The society aims to recognize the work, perspectives and expertise of its members to create bridges between academia, government, and private industry related to network science."* 
+- *"The society of [Women in Network Science](https://www.networkscienceinstitute.org/wins) (WiNS) connects **women, trans and non-binary gender** network scientists from different races, socioeconomic backgrounds, and nations. The society aims to recognize the work, perspectives and expertise of its members to create bridges between academia, government, and private industry related to network science."* 
+- *[Women in Math](https://ww3.math.ucla.edu/women-in-math/) (WIM) at the UCLA math department is an informal group of women graduate students, postdocs, faculty, and visitors.  We regularly hold lunches, dinners, and other social gatherings with the goal of fostering community and providing support for the women in the department.* WIM welcomes cis and trans women, as well as anyone else who would like to try out the space. 
+    - WIM has assembled an [excellent resource](https://docs.google.com/document/d/1V3ZV7ix4vw39rlYkSY8vO_E8HY8W14TxJif1c6tDhzI/edit?usp=sharing) on applying to graduate school and what to expect when you get there. 
 
 ## Python Computing {#python-resources .unnumbered} 
 
-- CS For All, a [website](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) and [book](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) developed for brand-new programming learners by the Department of Computer Science at Harvey Mudd College. 
+- *CS For All*, a [website](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) and [book](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) developed for brand-new programming learners by the [Department of Computer Science](https://www.cs.hmc.edu) at Harvey Mudd College. 
 - [Lecture notes and videos](https://philchodrow.github.io/PIC16A/schedule/) from PIC16A, my course on core skills in Python programming and data science. 
 - [*A Whirlwind Tour of Python*](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake VanderPlas is an excellent, rapid overview of fundamental Python skills. It is suitable for those who have experience in several other programming languages, or for those who previously learned Python and just need a brush-up.  
 - [Lecture notes](https://philchodrow.github.io/PIC16B/schedule/) from PIC16B, my course on advanced computational and data science in Python.  
