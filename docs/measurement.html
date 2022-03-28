@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title> 1 Measuring Networks | MATH 168 Introduction to Networks</title>
 <meta name="author" content="Phil Chodrow">
-<meta name="description" content="This page is under construction!">
+<meta name="description" content="These lecture notes are based on Chapters 6 and 7 of Newman. They are a short set of highlights, and are not a substitute for actually reading these chapters! There will be content not covered in...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
 <meta property="og:title" content=" 1 Measuring Networks | MATH 168 Introduction to Networks">
 <meta property="og:type" content="book">
-<meta property="og:description" content="This page is under construction!">
+<meta property="og:description" content="These lecture notes are based on Chapters 6 and 7 of Newman. They are a short set of highlights, and are not a substitute for actually reading these chapters! There will be content not covered in...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content=" 1 Measuring Networks | MATH 168 Introduction to Networks">
-<meta name="twitter:description" content="This page is under construction!">
+<meta name="twitter:description" content="These lecture notes are based on Chapters 6 and 7 of Newman. They are a short set of highlights, and are not a substitute for actually reading these chapters! There will be content not covered in...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="libs/_Lato-0.4.0/font.css" rel="stylesheet">
@@ -68,15 +68,112 @@
 <h1>
 <span class="header-section-number"> 1</span> Measuring Networks<a class="anchor" aria-label="anchor" href="#measurement"><i class="fas fa-link"></i></a>
 </h1>
-<p>This page is under construction!</p>
+<p><em>These lecture notes are based on Chapters 6 and 7 of Newman. They are a short set of highlights, and are not a substitute for actually reading these chapters! There will be content not covered in these notes that you’ll need for homework problems.</em></p>
+<div id="networks-and-matrices" class="section level2">
+<h2>
+<span class="header-section-number">1.1</span> Networks and Matrices<a class="anchor" aria-label="anchor" href="#networks-and-matrices"><i class="fas fa-link"></i></a>
+</h2>
+<p>Formally, an <strong>undirected graph</strong> <span class="math inline">\(G = (N, E)\)</span> is a set of nodes <span class="math inline">\(N\)</span> and a set of edges <span class="math inline">\(E\subseteq N\times N\)</span>. Each element of <span class="math inline">\(E\)</span> is an <em>unordered</em> pair of nodes in <span class="math inline">\(N\)</span>. We’ll focus on the case of <em>simple graphs,</em> in which there are no multi-edges or self-loops (see Newman 6.2 for discussion of these cases).</p>
+<p>Matrices are fundamental tools for studying networks. Why is that? The key point is that a graph is a collection of pairwise relationships encoded by <span class="math inline">\(E\)</span>, and matrices are really good for describing pairwise relationships!</p>
+<div id="the-adjacency-matrix" class="section level3 unnumbered">
+<h3>The Adjacency Matrix<a class="anchor" aria-label="anchor" href="#the-adjacency-matrix"><i class="fas fa-link"></i></a>
+</h3>
+<p>Easily the most fundamental of the matrices associated to a graph <span class="math inline">\(G\)</span> is the adjacency matrix <span class="math inline">\(\mathbf{A}\)</span>, with entries</p>
+<p><span class="math display">\[
+a_{ij} =
+\begin{cases}
+    1 &amp;\quad (i,j) \in E \\ 
+    0 &amp;\quad \mathrm{otherwise.}
+\end{cases}
+\]</span></p>
+<p>The reason the adjacency matrix is so important is that it is a lossless representation of the graph structure – given knowledge of <span class="math inline">\(\mathbf{A}\)</span>, you can fully reconstruct the graph. Not all matrices have this property.</p>
+<div id="walks" class="section level4 unnumbered">
+<h4>Walks<a class="anchor" aria-label="anchor" href="#walks"><i class="fas fa-link"></i></a>
+</h4>
+<p>A <em>walk of length <span class="math inline">\(k \geq 2\)</span></em> in a graph is a set of edges <span class="math inline">\((i_1,j_1), (i_2,j_2), \ldots, (i_k,j_k)\)</span> with the property that <span class="math inline">\(i_\ell = j_{\ell-1}\)</span> for each <span class="math inline">\(2 \leq \ell \leq k\)</span>. This definition doesn’t work for <span class="math inline">\(k = 1\)</span>; by convention, a single edge <span class="math inline">\((i,j)\)</span> is always considered a walk of length 1.</p>
+<p>A question that pops up a lot in network analysis is:</p>
+<blockquote>
+<p>How many walks of length <span class="math inline">\(k\)</span> exist between nodes <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>?</p>
+</blockquote>
+<p>The adjacency matrix gives a concise way to address this question. First, let’s consider <span class="math inline">\(k = 1\)</span>. That’s just the number of edges between nodes <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>, which is exactly <span class="math inline">\(a_{ij}\)</span>. Said another way,</p>
+<blockquote>
+<p>The <span class="math inline">\(ij\)</span> th entry of <span class="math inline">\(\mathbf{A}^1\)</span> counts the number of walks of length <span class="math inline">\(1\)</span> between nodes <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>.</p>
+</blockquote>
+<p>This turns out to generalize smoothly by induction. Let’s try out this argument now.</p>
+<p>Suppose that <span class="math inline">\(\mathbf{W}(k)\)</span> is a matrix whose entry <span class="math inline">\(w_{ij}(k)\)</span> contains the number of walks between nodes <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span> of length <span class="math inline">\(k\)</span>. Then, <span class="math inline">\(\mathbf{W}(k+1) = \mathbf{W}(k)\mathbf{A}\)</span> has entries <span class="math inline">\(w_{ij}(k+1)\)</span> containing the number of walks of length <span class="math inline">\(k+1\)</span>.</p>
+<p>The proof is fast: we just expand out the matrix product and interpret each term:</p>
+<p><span class="math display">\[ [\mathbf{W}(k)\mathbf{A}]_{ij} = \sum_{\ell \in N}w_{i\ell}(k)a_{\ell j}\;. \tag{cf. Newman's eq. 6.22}\]</span></p>
+<p><strong>Exercise</strong>: What’s a <em>very fast</em> argument that this sum does indeed express the number of walks of length <span class="math inline">\(k+1\)</span> from <span class="math inline">\(i\)</span> to <span class="math inline">\(j\)</span>?</p>
+</div>
+</div>
+<div id="degrees" class="section level3 unnumbered">
+<h3>Degrees<a class="anchor" aria-label="anchor" href="#degrees"><i class="fas fa-link"></i></a>
+</h3>
+<p>The <em>degree</em> of a node is the number of edges attached to it:</p>
+<p><span class="math display">\[k_i = \left|\left\{j:(i,j) \in E\right\}\right|\;.\]</span></p>
+<p>The degree is a fundamental quantity in many network analyses. Especially the <em>distribution of degrees</em> in the network can play a major role in both theory and applications.</p>
+<p><strong>Exercise</strong>: show that the diagonal entries of <span class="math inline">\(\mathbf{A}^2\)</span> give the degree of each node.</p>
+<p>We often collect the degrees into a diagonal matrix <span class="math inline">\(\mathbf{D}\)</span> whose diagonal entry <span class="math inline">\(d_{ii}\)</span> contains the degree of node <span class="math inline">\(i\)</span>.</p>
+</div>
+<div id="the-laplacian" class="section level3 unnumbered">
+<h3>The Laplacian<a class="anchor" aria-label="anchor" href="#the-laplacian"><i class="fas fa-link"></i></a>
+</h3>
+<p>Another very important matrix for network representations is the <em>graph Laplacian matrix</em>. Actually, there are multiple matrices with claim to this name, but the one we’ll usually focus on is the <em>combinatorial Laplacian</em> <span class="math inline">\(\mathbf{L} = \mathbf{D} - \mathbf{A}\)</span>.</p>
+<p><strong>Exercise</strong>: Given knowledge of the combinatorial Laplacian <span class="math inline">\(\mathbf{L}\)</span>, is it possible to exactly reconstruct the graph?</p>
+<p>The Laplacian is often used to represent <em>(diffusive) flows</em> of quantities between nodes. To see why, suppose that I have some amount of water <span class="math inline">\(x_i\)</span> on each node <span class="math inline">\(i\)</span>, and that I collect this into a vector <span class="math inline">\(\mathbf{x}\)</span>. Now, consider the vector <span class="math inline">\(\mathbf{L}\mathbf{x}\)</span>.</p>
+<p><span class="math display">\[
+\begin{align}
+[\mathbf{L}\mathbf{x}]_i &amp;= \sum_{j} \left(d_{ij}x_j - a_{ij}x_j \right) \\ 
+&amp;= \underbrace{k_ix_i}_{\text{flow out of }i} - \underbrace{\sum_{j} a_{ij}x_j}_{\text{flow into }i}\;.
+\end{align}\]</span></p>
+<p>The first term distributes the water <span class="math inline">\(x_i\)</span> at node <span class="math inline">\(i\)</span> to each of <span class="math inline">\(i\)</span>’s <span class="math inline">\(k_i\)</span> neighbors, while the second term allows water to flow into node <span class="math inline">\(i\)</span> from each neighbor along each edge connecting them.</p>
+<p>Modifications of this setup will become very important when we discuss random walks later in the course.</p>
+</div>
+<div id="many-more-matrices" class="section level3 unnumbered">
+<h3>Many More Matrices…<a class="anchor" aria-label="anchor" href="#many-more-matrices"><i class="fas fa-link"></i></a>
+</h3>
+<p>There are LOTS of matrices that can be associated to networks. There’s no “right” one – some are more useful than others for certain jobs. Throughout this course, we’ll see examples of matrices that are well-suited to certain specific tasks, like ranking or clustering. If you’re interested in searching around a bit, some other fun matrices are:</p>
+<ul>
+<li>The <em>nonbacktracking</em> or <em>Hashimoto</em> matrix.</li>
+<li>The modularity matrix.</li>
+<li>The random-walk matrix.</li>
+<li>The random-walk and symmetric normalized Laplacian matrices.</li>
+<li>The PageRank matrix.</li>
+<li>The node-edge incidence matrix.</li>
+</ul>
+<p>And the list goes on!</p>
+</div>
+<div id="directed-and-weighted-graphs" class="section level3 unnumbered">
+<h3>Directed and Weighted Graphs<a class="anchor" aria-label="anchor" href="#directed-and-weighted-graphs"><i class="fas fa-link"></i></a>
+</h3>
+<p>Newman Chapter 6 contains a nice introductory discussion of directed and weighted graphs. We won’t spend a lot of time on these at this stage of the course, but it’s worthwhile reading this material as it may be of interest as you think about projects.</p>
+</div>
+</div>
+<div id="measures-and-metrics" class="section level2">
+<h2>
+<span class="header-section-number">1.2</span> Measures and Metrics<a class="anchor" aria-label="anchor" href="#measures-and-metrics"><i class="fas fa-link"></i></a>
+</h2>
 
+</div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="standard-specifications.html">Standard Specifications</a></div>
 <div class="next"><a href="random-graphs.html"><span class="header-section-number">2</span> Random Graphs</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#measurement"><span class="header-section-number">1</span> Measuring Networks</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#measurement"><span class="header-section-number">1</span> Measuring Networks</a></li>
+<li>
+<a class="nav-link" href="#networks-and-matrices"><span class="header-section-number">1.1</span> Networks and Matrices</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-adjacency-matrix">The Adjacency Matrix</a></li>
+<li><a class="nav-link" href="#degrees">Degrees</a></li>
+<li><a class="nav-link" href="#the-laplacian">The Laplacian</a></li>
+<li><a class="nav-link" href="#many-more-matrices">Many More Matrices…</a></li>
+<li><a class="nav-link" href="#directed-and-weighted-graphs">Directed and Weighted Graphs</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#measures-and-metrics"><span class="header-section-number">1.2</span> Measures and Metrics</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -93,7 +190,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MATH 168<br>Introduction to Networks</strong>" was written by Phil Chodrow. It was last built on 2022-03-27.</p>
+    <p>"<strong>MATH 168<br>Introduction to Networks</strong>" was written by Phil Chodrow. It was last built on 2022-03-28.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
