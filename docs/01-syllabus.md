@@ -161,6 +161,26 @@ In this policy, the phrase "sufficient progress" means roughly that you are at l
 
 The purpose of this policy is to keep you moving at a good speed and to save the TA from large piles of submissions and resubmissions at the end of the quarter. 
 
+#### The Resubmission Process {.unnumbered} 
+
+So you got back your first assignment, and you didn't get credit on a few problems. What should you do? 
+
+1. Breath. I know it feels like getting a 0, and you're not used to that! But, you still have the opportunity to get full credit, and you have feedback from the TA on how to do so. 
+2. Carefully review your feedback from the TA on Gradescope. Think of the feedback as a checklist -- revise those items to a high standard, and you'll get credit. 
+3. Revise your solutions. You only need to revise the problems for which you didn't get credit the first time. 
+4. You can submit your revision at any time during the quarter, although I strongly suggest doing it quickly so that you don't get bogged down. **You should submit all revised problems on the same assignment at once.** For example, if you need to revise your solutions to Problems 3 and 5 on HW0, then you should do so and submit one document containing the revisions for both of these problems. 
+
+We'll make an announcement with the detailed mechanics of where and how to submit your revisions after HW0 comes out. 
+
+#### How Many Resubmissions? {.unnumbered} 
+
+You can always expect to have **one** opportunity to resubmit on homework problems. 
+
+In some cases, the TA *may* invite you to make a second resubmission if your first resubmission was *very close* but not quite there in some trivial way. For example,  maybe your calculation was correct except for a factor of 2 that you forgot to cancel in the very last line. 
+
+Whether you get more resubmissions is *fully at the discretion of the TA* and *not subject to negotiation*. Requests for more resubmissions are unlikely to receive a response from the TA. 
+
+
 ### Midterm Exam {.unnumbered}
 
 The midterm exam will likely take place during Week 6 or early in Week 7. The exam is currently expected to be a 50-minute in-person exam during a class period. You'll be permitted to bring any quantity of hand-written notes to the exam, but not any other resources. 
