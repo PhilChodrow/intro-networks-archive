@@ -98,7 +98,7 @@ You deserve to be addressed in the manner that reflects who you are. I welcome t
 
 We will be using the following text: 
 
-> Mark Newman (2018), *Networks: An Introduction*, **2nd edition**.[@newman2018networks] 
+> Mark Newman (2018), *Networks*, **2nd edition**.[@newman2018networks] 
 
 Please note that we will be studying problems and topics from the **2nd edition**. The 1st edition can also be found, but if you buy it you might end up doing the wrong problems! 
 

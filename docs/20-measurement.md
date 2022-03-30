@@ -1,3 +1,5 @@
+
+
 # Measuring Networks {#measurement}
 
 *These lecture notes are based on Chapters 6 and 7 of Newman. They are a short set of highlights, and are not a substitute for actually reading these chapters! There will be content not covered in these notes that you'll need for homework problems.* 
@@ -44,6 +46,56 @@ $$ [\mathbf{W}(k)\mathbf{A}]_{ij} = \sum_{\ell \in N}w_{i\ell}(k)a_{\ell j}\;. \
 
 **Exercise**: What's a *very fast* argument that this sum does indeed express the number of walks of length $k+1$ from $i$ to $j$? 
 
+### A Linear Algebra Interlude {.unnumbered}
+
+What kind of information does the matrix $\mathbf{A}$ hold about the graph? Well, one answer is "all of it," because $\mathbf{A}$ determines the graph up to permutations of node labels. But there's a more useful answer as well. When we as about the information contained in a matrix, we often look at the *eigenvalues* and *eigenvectors.* The eigenvalues and eigenvectors of the adjacency matrix can contain some useful information about the graph structure. Let's see an example. 
+
+Let 
+
+$$\mathbf{K}_n = \left[\begin{matrix}
+    & 1 & 1 & \cdots & 1 \\
+    1 &  & 1 & \cdots & 1 \\
+    1 & 1 &  & \cdots & 1 \\
+    \vdots & \vdots &\vdots &\ddots & \vdots \\ 
+    1 & 1 & 1 & \cdots 
+\end{matrix}\right]\;.$$
+
+There are $n$ rows and $n$ columns. 
+
+The is the adjacency matrix of an *n-clique*: a graph on $n$ nodes in which all nodes are connected to each other. 
+
+Let's now consider the matrix 
+$$\mathbf{A}_{2n} = \left[\begin{matrix} 
+    \mathbf{K}_n & \mathbf{I}_n \\ 
+    \mathbf{I}_n & \mathbf{K}_n 
+\end{matrix}\right]\;.$$
+
+Here, $\mathbf{I}_n$ is the $n\times n$ identity matrix. 
+
+Now, $\mathbf{A}_n$ is the matrix of two cliques that have been "paired", with each node in one clique connected to exactly one node in the other clique. It looks a bit like this: 
+
+<div class="figure" style="text-align: center">
+<img src="img/paired-cliques.png" alt="A visualization of the 'paired cliques' example with 20 total nodes." width="50%" style="float:left" />
+<p class="caption">(\#fig:unnamed-chunk-1)A visualization of the 'paired cliques' example with 20 total nodes.</p>
+</div>
+
+What kinds of information are contained in the first few eigenvectors of $\mathbf{A}_{2n}$? 
+
+**Exercise**: The vector of ones $\mathbf{1}_{2n}$ is an eigenvector of $\mathbf{A}_{2n}$. What is its eigenvalue? How do we know whether it is the largest one?  
+
+**Exercise**: The vector $\mathbf{v} = (\mathbf{1}_n, - \mathbf{1}_n)$ is another eigenvector of $\mathbf{A}_{2n}$. What is its eigenvalue? 
+
+In fact, it's true that these are the two largest eigenvalues of $\mathbf{A}$. The first one isn't very interesting, but note that the second one actually separates the two cliques! 
+
+So, suppose we were given a graph where: 
+
+- We knew that the graph had the paired-clique structure, but 
+- We didn't know which node belonged to which clique. 
+
+A way to solve this problem would be to compute the *second eigenvector* $\mathbf{v}$. The signs of $\mathbf{v}$ separate the two cliques. This idea is the foundation of many *spectral graph clustering* algorithms. 
+
+In fact, the adjacency matrix isn't usually the optimal matrix to use for spectral algorithms.[@nadakuditi2012graph] This is a deep and important story related to *random matrix theory*, which has many connections to network science. 
+
 ### Degrees {.unnumbered}
 
 The *degree* of a node is the number of edges attached to it: 
@@ -88,9 +140,42 @@ There are LOTS of matrices that can be associated to networks. There's no "right
 
 And the list goes on! 
 
+
 ### Directed and Weighted Graphs {.unnumbered}
 
 Newman Chapter 6 contains a nice introductory discussion of directed and weighted graphs. We won't spend a lot of time on these at this stage of the course, but it's worthwhile reading this material as it may be of interest as you think about projects. 
 
-## Measures and Metrics
+## Measures and Metrics {.unnumbered}
 
+### Local Measures {.unnumbered}
+
+#### Node Importance  {.unnumbered}
+
+- Degree
+- Betweenness centrality
+- Clustering coefficients 
+- Degree distributions
+
+
+### Global Measures {.unnumbered}
+
+#### Network Size {.unnumbered}
+
+- Number of nodes 
+- Edge density 
+- Diameter 
+
+#### Cluster Structure {.unnumbered} 
+
+- Cut sizes
+
+#### Hierarchy/Planarity {.unnumbered} 
+
+- Linearity, minimum-violation ranking
+
+
+### Looking Ahead {.unnumbered}
+
+> An important question to ask about many of these metrics is: *what counts as a large, surprising, or meaningful* value of a given metric? 
+
+One way to address this question is to take some value and compare it to one that we believe to be small, unsurprising, or not meaningful. We often operationalize this by saying that "a random graph" would have some property, such as a low clustering coefficient. So, a high clustering coefficient is surprising, and suggests that the graph might not be "random." This motivation takes directly to the study of random graphs, which is one of the mathematical foundations of network science. 
